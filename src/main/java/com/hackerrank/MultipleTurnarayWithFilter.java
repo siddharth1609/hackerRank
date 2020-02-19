@@ -1,6 +1,9 @@
 package com.hackerrank;
 
+import java.util.Arrays;
 import java.util.Scanner;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class MultipleTurnarayWithFilter {
 	
@@ -23,7 +26,7 @@ public class MultipleTurnarayWithFilter {
 			
 		}
 		
-	     for(int i =0 ;i<arr.length;i++) {
+	  /*   for(int i =0 ;i<arr.length;i++) {
 		  
 	    	 if(arr[i] % 3==0 && arr[i] % 5==0) {
 				   
@@ -45,7 +48,10 @@ public class MultipleTurnarayWithFilter {
 		  
 		  
 		  
-	  }
+	  }*/
+		
+		IntStream stream = Arrays.stream(arr);
+		
 		
 		
 	}
